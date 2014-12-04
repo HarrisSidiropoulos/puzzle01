@@ -1,0 +1,90 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #DFDFDF;
+}
+#container {
+    width: 800px;
+    padding: 14px 14px;
+    padding-top: 1px;
+    margin: 0 auto;
+    background: #FFF;
+}
+
+#photoPuzzle, #controls {
+    width: 800px;
+}
+#photoPuzzle {
+    margin-top: 14px;
+}
+#helpContainer,  #controls {
+    width: 800px;
+}
+#helpContainer {
+    padding-top: 14px;
+}
+
+#photoPuzzle {
+    height: 600px;
+}
+#photoPuzzle ul {
+    list-style: none;
+    padding: 0px;
+}
+#photoPuzzle li {
+    width: 196px;
+    height: 196px;
+    border: 2px solid white;
+    background-color: white;
+    float: left;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    cursor: pointer;
+    line-height: 196px;
+    text-align: center;
+
+    text-shadow: 0px 0px 4px #000000;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+#photoPuzzle li span {
+    pointer-events: none;
+}
+#photoPuzzle ul.normal li {
+    font-size: 30px;
+    line-height: 146px;
+    width: 196px;
+    height: 146px;
+}
+#photoPuzzle ul.hard li {
+    font-size: 20px;
+    line-height: 96px;
+    width: 96px;
+    height: 96px;
+}
+.photo {
+    background-image: url("../img/image001.jpg");
+    background-repeat: no-repeat;
+}
+.photo002 {
+    background-image: url("../img/image002.jpg");
+    background-repeat: no-repeat;
+}
+fieldset {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+
+#level {
+    float: right;
+}
+.hideNumbers span {
+    display: none;
+}
