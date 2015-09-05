@@ -1,2 +1,1 @@
-https://harrissidiropoulos.github.com/puzzle01
-test
+http://harrissidiropoulos.github.io/puzzle01/
